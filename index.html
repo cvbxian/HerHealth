@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HerHealthHub: women's reproductive health access in the Philippines, the RH Law (RA 10354), PCOS and endometriosis.">
+<title>HerHealthHub | Women's Reproductive Health Access</title>
+<meta property="og:title" content="HerHealthHub">
+<meta property="og:description" content="Women's reproductive health access in the Philippines.">
+<meta property="og:image" content="images/og-image.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<div id="progress"></div>
+
+<header class="nav">
+  <a href="#home" class="logo">🌸 HerHealth<span>Hub</span></a>
+  <nav id="menu">
+    <a href="#facts">Facts</a><a href="#law">RH Law</a><a href="#conditions">PCOS &amp; Endo</a>
+    <a href="#care">Get Care</a><a href="#tools">Tools</a><a href="#references">References</a>
+  </nav>
+  <button class="icon-btn" id="theme" aria-label="Toggle dark mode">🌙</button>
+  <button class="icon-btn burger" id="burger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="hero-text">
+    <p class="tag h-in">Women's Reproductive Health Access</p>
+    <h1 class="h-in">Your health. Your rights. <em>Your hub.</em></h1>
+    <p class="h-in">Understand the Responsible Parenthood and Reproductive Health Act, learn the signs of PCOS and endometriosis, and find out how to access care in the Philippines.</p>
+    <div class="btns h-in">
+      <a href="#law" class="btn primary">Know the RH Law</a>
+      <a href="#tools" class="btn ghost">Try the tools</a>
+    </div>
+  </div>
+  <img class="hero-img" src="images/hero-women.jpg" alt="A diverse group of women smiling together" width="480" height="560" onerror="this.remove()">
+</section>
+
+<section class="section" id="facts">
+  <h2>Why it matters</h2>
+  <p class="sub">Reproductive health conditions are common, yet often go undiagnosed. PCOS alone affects an estimated 8–13% of reproductive-age women worldwide.</p>
+  <div class="grid3">
+    <div class="card reveal"><h3><span class="count" data-to="70" data-pre="Up to " data-suf="%">0</span></h3><p>of women with PCOS are undiagnosed, according to WHO.</p></div>
+    <div class="card reveal"><h3><span class="count" data-to="10" data-pre="~" data-suf="%">0</span></h3><p>of women and girls of reproductive age have endometriosis.</p></div>
+    <div class="card reveal"><h3><span class="count" data-to="190" data-pre="~" data-suf=" million">0</span></h3><p>women and girls are affected by endometriosis worldwide.</p></div>
+  </div>
+  <p class="source">Source: WHO fact sheets on PCOS and endometriosis (see References).</p>
+</section>
+
+<section class="section alt" id="law">
+  <h2>RA 10354 Breakdown</h2>
+  <p class="sub">The Responsible Parenthood and Reproductive Health Act of 2012, commonly called the <strong>RH Law</strong>.</p>
+  <div class="timeline reveal">
+    <div><b>Dec 21, 2012</b><span>Signed into law by President Benigno S. Aquino III</span></div>
+    <div><b>Apr 8, 2014</b><span>Supreme Court declares it constitutional, striking down some provisions (<i>Imbong v. Ochoa</i>, G.R. No. 204819)</span></div>
+  </div>
+  <div class="accordion">
+    <details open><summary>What does the law cover?</summary><p>Access to information and services on family planning, maternal and newborn care, emergency obstetric care, adolescent and youth reproductive health, prevention and management of reproductive tract infections including HIV/AIDS, treatment of breast and reproductive tract cancers, and infertility services, among other areas.</p></details>
+    <details><summary>Who gets priority?</summary><p>Government programs are directed to prioritize poor and marginalized women and households, including PhilHealth coverage for indigent women.</p></details>
+    <details><summary>Does it legalize abortion?</summary><p>No. Abortion remains illegal in the Philippines. The law requires that women with abortion complications receive humane, non-judgmental care.</p></details>
+    <details><summary>What about reproductive health education?</summary><p>The law provides for age- and development-appropriate reproductive health education in schools, as determined with the Department of Education.</p></details>
+    <details><summary>What did the Supreme Court change?</summary><p>In 2014, the Court upheld the law but struck down or limited several provisions, including spousal consent for married persons and minors' access to services without parental consent (with exceptions for life-threatening cases). It also struck down provisions penalizing providers who refuse, on religious grounds, to give services or information.</p></details>
+  </div>
+</section>
+
+<section class="section" id="conditions">
+  <h2>PCOS &amp; Endometriosis</h2>
+  <p class="sub">Two common conditions often dismissed as "normal." Choose one to learn more.</p>
+  <div class="tabs" role="tablist">
+    <button class="tab active" data-tab="pcos" role="tab">PCOS</button>
+    <button class="tab" data-tab="endo" role="tab">Endometriosis</button>
+  </div>
+  <div class="panel active" id="pcos"><div class="card wide">
+    <img class="card-img tall fit" src="images/pcos-awareness.jpg" alt="PCOS awareness illustration" loading="lazy" onerror="this.remove()">
+    <h3>Polycystic Ovary Syndrome (PCOS)</h3>
+    <p>A hormonal condition that affects ovulation and can raise levels of androgens (male-type hormones).</p>
+    <h4>Common signs</h4>
+    <ul><li>Irregular, infrequent, or missed periods</li><li>Excess facial or body hair (hirsutism)</li><li>Acne and oily skin</li><li>Thinning scalp hair</li><li>Difficulty getting pregnant</li></ul>
+    <h4>Diagnosis</h4>
+    <p>Usually requires two of three criteria (irregular ovulation, signs of high androgens, polycystic-appearing ovaries on ultrasound), after a doctor rules out other causes.</p>
+    <h4>Management</h4>
+    <p>Depends on your goals: lifestyle changes, medication to regulate periods or manage symptoms, and fertility treatment. PCOS is linked to a higher risk of type 2 diabetes, so regular monitoring matters.</p>
+  </div></div>
+  <div class="panel" id="endo"><div class="card wide">
+    <img class="card-img tall fit" src="images/endo-awareness.jpg" alt="Endometriosis awareness illustration" loading="lazy" onerror="this.remove()">
+    <h3>Endometriosis</h3>
+    <p>Tissue similar to the uterine lining grows outside the uterus, causing inflammation and pain.</p>
+    <h4>Common signs</h4>
+    <ul><li>Painful periods that disrupt daily life</li><li>Chronic pelvic pain</li><li>Pain during or after sex</li><li>Pain with bowel movements or urination</li><li>Heavy bleeding and difficulty getting pregnant</li></ul>
+    <h4>Diagnosis</h4>
+    <p>A doctor considers your symptoms and history, performs an exam, and may use ultrasound or MRI. Laparoscopy can confirm it. Diagnosis is often delayed, so speak up early.</p>
+    <h4>Management</h4>
+    <p>Options include pain relief, hormonal treatment, and surgery. There is currently no cure, but symptoms can be managed.</p>
+  </div></div>
+  <p class="note">⚠️ Educational only, not a diagnosis. Please consult a licensed health professional.</p>
+</section>
+
+<section class="section alt" id="care">
+  <h2>Where to Get Care</h2>
+  <p class="sub">Public health services are a good starting point. Availability varies by location, so call ahead or ask your local government unit.</p>
+  <div class="grid3">
+    <div class="card reveal"><img class="card-img" src="images/care-barangay.jpg" alt="A barangay health station" loading="lazy" onerror="this.remove()"><h3>🏘️ Barangay Health Station</h3><p>First contact for basic health information and referrals in your community.</p></div>
+    <div class="card reveal"><img class="card-img" src="images/care-rhu.jpg" alt="A rural health unit in the Philippines" loading="lazy" onerror="this.remove()"><h3>🏥 Rural Health Unit / City Health Office</h3><p>Family planning, prenatal care, and reproductive health consultations under local programs.</p></div>
+    <div class="card reveal"><img class="card-img" src="images/care-hospital.jpg" alt="A public hospital in the Philippines" loading="lazy" onerror="this.remove()"><h3>🩺 Government Hospitals</h3><p>Specialist care, diagnostics, and referrals, including gynecology.</p></div>
+    <div class="card reveal"><h3>💳 PhilHealth</h3><p>Ask about your membership status and covered benefits at philhealth.gov.ph.</p></div>
+    <div class="card reveal"><h3>📞 DOH</h3><p>Programs and facility information at doh.gov.ph.</p></div>
+    <div class="card reveal"><h3>🤝 Local Women's Desk</h3><p>Your LGU's Gender and Development (GAD) office can point you to women's health programs.</p></div>
+  </div>
+</section>
+
+<section class="section" id="tools">
+  <h2>Interactive Tools</h2>
+
+  <h3 class="tool-title">Myth vs Fact <small>(tap a card to flip)</small></h3>
+  <div class="flips">
+    <div class="flip" tabindex="0"><div class="in"><div class="front">"The RH Law legalizes abortion."</div><div class="back"><b>Fact:</b> No. Abortion remains illegal. The law ensures care for complications.</div></div></div>
+    <div class="flip" tabindex="0"><div class="in"><div class="front">"Severe period pain is just normal."</div><div class="back"><b>Fact:</b> Mild cramps are common, but pain that disrupts your life should be checked. It can signal endometriosis.</div></div></div>
+    <div class="flip" tabindex="0"><div class="in"><div class="front">"PCOS means you can never get pregnant."</div><div class="back"><b>Fact:</b> PCOS can affect ovulation, but many women with PCOS conceive, sometimes with treatment.</div></div></div>
+    <div class="flip" tabindex="0"><div class="in"><div class="front">"Only overweight women get PCOS."</div><div class="back"><b>Fact:</b> PCOS affects women of all body sizes.</div></div></div>
+  </div>
+
+  <h3 class="tool-title">Cycle Estimator</h3>
+  <div class="card wide">
+    <img class="card-img fit" src="images/cycle-tracker.jpg" alt="A period tracker calendar" loading="lazy" onerror="this.remove()">
+    <div class="row">
+      <label>First day of last period<input type="date" id="lmp"></label>
+      <label>Cycle length (days)<input type="number" id="len" min="21" max="45" value="28"></label>
+    </div>
+    <button class="btn primary solid" id="calc">Estimate</button>
+    <div id="cycleOut" class="out" aria-live="polite"></div>
+    <p class="small">Estimate only. Cycles vary, and irregular cycles can be a sign of PCOS or other conditions. Tracking for 2–3 months and sharing it with a doctor is more useful than any calculator.</p>
+  </div>
+
+  <h3 class="tool-title">Prepare for Your Checkup</h3>
+  <div class="card wide" id="check">
+    <img class="card-img" src="images/checkup-prep.jpg" alt="A woman talking with her doctor" loading="lazy" onerror="this.remove()">
+    <div class="bar"><div id="fill"></div></div>
+    <p id="progressText">0 of 6 done</p>
+    <label><input type="checkbox"> Track my cycle dates for 2–3 months</label>
+    <label><input type="checkbox"> Write down my symptoms and when they happen</label>
+    <label><input type="checkbox"> List my medications and supplements</label>
+    <label><input type="checkbox"> Note my family health history</label>
+    <label><input type="checkbox"> Bring a valid ID and PhilHealth details</label>
+    <label><input type="checkbox"> Prepare my questions for the doctor</label>
+  </div>
+
+  <h3 class="tool-title">RH Law Quiz</h3>
+  <div class="card wide" id="quiz">
+    <p id="qCount" class="small"></p>
+    <h4 id="qText"></h4>
+    <div id="qOpts"></div>
+    <p id="qFeed" class="small" aria-live="polite"></p>
+    <button class="btn primary solid" id="qNext" hidden>Next</button>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Informed women make empowered choices.</h2>
+  <p>Share this page with someone who needs it.</p>
+  <button class="btn primary" id="share">Copy page link</button>
+</section>
+
+<section class="section" id="references">
+  <h2>References</h2>
+  <ol class="refs">
+    <li>Republic Act No. 10354, <i>Responsible Parenthood and Reproductive Health Act of 2012</i>. Official Gazette. <a href="https://www.officialgazette.gov.ph/2012/12/21/republic-act-no-10354/" target="_blank" rel="noopener">officialgazette.gov.ph</a></li>
+    <li>Supreme Court of the Philippines. <i>Imbong v. Ochoa</i>, G.R. No. 204819, April 8, 2014. <a href="https://lawphil.net/judjuris/juri2014/apr2014/gr_204819_2014.html" target="_blank" rel="noopener">lawphil.net</a></li>
+    <li>World Health Organization. <i>Polycystic ovary syndrome</i> (fact sheet). <a href="https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome" target="_blank" rel="noopener">who.int</a></li>
+    <li>World Health Organization. <i>Endometriosis</i> (fact sheet). <a href="https://www.who.int/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">who.int</a></li>
+    <li>Department of Health, Philippines. <a href="https://doh.gov.ph" target="_blank" rel="noopener">doh.gov.ph</a></li>
+    <li>Philippine Health Insurance Corporation. <a href="https://www.philhealth.gov.ph" target="_blank" rel="noopener">philhealth.gov.ph</a></li>
+    <li>Photos: credit each photographer and site (Unsplash, Pexels or Pixabay) here, e.g. "Photo by Name on Unsplash."</li>
+  </ol>
+</section>
+</main>
+
+<footer><p>🌸 HerHealthHub · Educational project · Not a substitute for professional medical advice.</p><p>© <span id="year"></span> HerHealthHub</p></footer>
+<button id="top" aria-label="Back to top">↑</button>
+<div id="toast" role="status"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
